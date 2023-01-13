@@ -1,0 +1,1 @@
+percentageLetter=(s,l)=>{c=0,t=s.length;for(x of s)if(x==l)c++;return Math.floor((c/t)*100)}
